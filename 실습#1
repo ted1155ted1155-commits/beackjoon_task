@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+void printf_HelloWorld()  // 사용자 정의 함수 
+{
+    printf("Hello world!!\n");  // printf는 stdio.h의 함수이다. 사용자 정의 함수가 아니다.
+     return;  // 반환 타입이 void
+}
+
+ int main()  // 메인 함수
+{
+    printf_HelloWorld();   // 함수 호출
+    return 0;
+}
+
+
+
+Hello world!!
+
+
+...Program finished with exit code 0
+Press ENTER to exit console.
